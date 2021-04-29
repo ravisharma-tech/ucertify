@@ -50,8 +50,7 @@
 			const meetupIndex = meetups.findIndex(m => m.id === id);
 			const updatedMeetups = [...meetups];
 			updateMeetups[meetupIndex] = updatedMeetup;
-			meetups = updatedMeetups;
-			
+			meetups = updatedMeetups;	
 		}
 
 </script>
