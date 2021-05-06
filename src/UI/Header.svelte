@@ -1,29 +1,24 @@
-<script>
-
-</script>
-
-<header class="main__header">
-    <a href="https://www.mymeetups.com/">
-        MyMeetUps
-    </a>
-</header>
-
 <style>
-.main__header {
-    position : fixed;
-    left : 0px;
-    top : 2rem;
-    background-color : #ffffff;
-    height : 4rem;
-    width : 100%;
-    box-shadow: 0px 2px 0px rgba(22, 8, 47, 0.1);
-    line-height: 3.5rem;
-}
-.main__header a{
-    text-decoration: none;
-    color : purple;
-    font-size : 2rem;
-    font-weight: 400;
-    margin-left : 20px;
-}
+  .main_header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 4rem;
+    background: #cf0056;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+  }
+
+  h1 {
+    color: white;
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+  }
 </style>
+
+<header class="main_header">
+  <h1>MeetUs</h1>
+</header>
